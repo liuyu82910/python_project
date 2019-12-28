@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}
+{{title|title}}
+{% endblock %}
+
+{% block content %}
+{% if request.user.is_authenticated %}
+    {% if request.user.is_staff %}
+        <button class ='btn btn-outline-danger my-3 py-1 mx-2'><a href='{{object.get_delete_url}}'>DELETE</a></button>
+        <button class ='btn btn-outline-warning my-3 py-1 mx-2'><a href='{{object.get_update_url}}'>Update</a></button>
+    {% endif %}
+{% endif %}
+<button class ='btn btn-outline-success my-3 py-1 mx-2'><a href='{{object.get_list_url}}'>Return</a></button>
+<div class="card my-3 py-3 mx-2 px-2">
+<h3>{{object.id}} {{object.title}}</h3>
+<p>{{object.content|linebreaks}}</p>
+</div>
+{% if request.user.is_authenticated %}
+    {% if request.user.is_staff %}
+        <button class ='btn btn-outline-danger my-3 py-1 mx-2'><a href='{{object.get_delete_url}}'>DELETE</a></button>
+        <button class ='btn btn-outline-warning my-3 py-1 mx-2'><a href='{{object.get_update_url}}'>Update</a></button>
+    {% endif %}
+{% endif %}
+<button class ='btn btn-outline-success my-3 py-1 mx-2'><a href='{{object.get_list_url}}'>Return</a></button>
+
+{% endblock %}

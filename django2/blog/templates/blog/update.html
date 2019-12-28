@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}
+{{title|title}}
+{% endblock %}
+
+{% block content %}
+<form method="POST" action="">{% csrf_token %}
+    {{form.as_p}}
+    <br>
+    <button class="btn btn-outline-primary" type="submit">Update</button>
+    <button class="btn btn-outline-success"><a href='{{object.get_absolute_url}}'>Return</a></button>
+</form>
+
+{% endblock %}

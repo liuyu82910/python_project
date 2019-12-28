@@ -1,0 +1,17 @@
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>Show me the current datetime, yay!</title>#}
+{#</head>#}
+{#<body>#}
+{#<h1 style="text-align: center; color: lawngreen;font-size:50px;">It is now {{ currentdatetime }} @__@ </h1>#}
+{##}
+{#</body>#}
+{#</html>#}
+{% extends "base.html" %}
+{% block title %}The Current Time {% endblock %}
+
+{% block content %}
+<p>It is now {{ currentdatetime }}^__^</p>
+{% endblock %}

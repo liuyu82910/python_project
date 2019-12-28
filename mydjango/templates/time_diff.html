@@ -1,0 +1,26 @@
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>show me the time difference</title>#}
+{#</head>#}
+{#<body>#}
+{#<h1 style='background-color: lightcyan;font-size:50px; color: blue;text-align:center; border: 4px solid tomato;#}
+{#border-radius:40px; width:1200px; height: 80px;'>In {{ offset }} hour(s), it will be {{ timediff }} </h1>#}
+{#</body>#}
+{#</html>#}
+
+{% extends "base.html" %}
+
+{% block title %}Time Difference{% endblock %}
+
+{% block content %}
+{% if offset > 0 %}
+    <p>In {{ offset }} hour(s), it will be {{ timediff }}.</p>
+{% elif offset == 0%}
+    <p>In {{ offset }} hours, it is {{ timediff }}.</p>
+{% else %}
+    <p>{{ offset }} hour(s) ago, it was {{ timediff }}.</p>
+{% endif %}
+
+{% endblock %}

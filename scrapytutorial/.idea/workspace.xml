@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5b0ae77-496a-4e66-a255-3a5c3ca239df" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="useSoftWraps" value="true" />
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1OSZC9dAPYof1i2K1VqfxxZlDfW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../django2/blog/templates/blog" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pythonprojects\django2\blog\templates\blog" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.pong">
+    <configuration name="database" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scrapytutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/quotetutorial/quotetutorial" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quotetutorial/quotetutorial/database.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pong" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="game" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../game" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../game/pong.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="django2" type="Python.DjangoServer" factoryName="Django server">
+      <module name="django2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="django_project" type="Python.DjangoServer" factoryName="Django server">
+      <module name="django_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.pong" />
+        <item itemvalue="Python.database" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5b0ae77-496a-4e66-a255-3a5c3ca239df" name="Default Changelist" comment="" />
+      <created>1563372259604</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563372259604</updated>
+      <workItem from="1563372265717" duration="2903000" />
+      <workItem from="1563457202201" duration="1399000" />
+      <workItem from="1563537683466" duration="708000" />
+      <workItem from="1563588831903" duration="10596000" />
+      <workItem from="1563681391160" duration="12163000" />
+      <workItem from="1563796662311" duration="748000" />
+      <workItem from="1563972299484" duration="234000" />
+      <workItem from="1563972843550" duration="4889000" />
+      <workItem from="1564062114980" duration="1974000" />
+      <workItem from="1564209332317" duration="1811000" />
+      <workItem from="1564215190405" duration="2784000" />
+      <workItem from="1564284649079" duration="7083000" />
+      <workItem from="1564317834059" duration="3949000" />
+      <workItem from="1564403349743" duration="2358000" />
+      <workItem from="1564488103876" duration="1014000" />
+      <workItem from="1564660495209" duration="5885000" />
+      <workItem from="1564814087083" duration="3851000" />
+      <workItem from="1564896277524" duration="10344000" />
+      <workItem from="1565009076167" duration="1474000" />
+      <workItem from="1566045419602" duration="1459000" />
+      <workItem from="1567086095453" duration="163000" />
+      <workItem from="1567086520415" duration="580000" />
+      <workItem from="1567087288349" duration="775000" />
+      <workItem from="1567228834402" duration="7030000" />
+      <workItem from="1567313530433" duration="2755000" />
+      <workItem from="1567321805357" duration="5990000" />
+      <workItem from="1567424843933" duration="3546000" />
+      <workItem from="1567599884709" duration="1614000" />
+      <workItem from="1567924579600" duration="2588000" />
+      <workItem from="1568030820370" duration="4109000" />
+      <workItem from="1568207610937" duration="1450000" />
+      <workItem from="1568209439199" duration="1211000" />
+      <workItem from="1568356534225" duration="368000" />
+      <workItem from="1568357258227" duration="1938000" />
+      <workItem from="1568439900426" duration="3530000" />
+      <workItem from="1568449608361" duration="4827000" />
+      <workItem from="1568525582991" duration="1322000" />
+      <workItem from="1571552779051" duration="1438000" />
+      <workItem from="1571564070213" duration="1032000" />
+      <workItem from="1571657880463" duration="1501000" />
+      <workItem from="1571833783694" duration="1282000" />
+      <workItem from="1572006410591" duration="1569000" />
+      <workItem from="1572761078875" duration="826000" />
+      <workItem from="1572764613251" duration="7402000" />
+      <workItem from="1572874018706" duration="3255000" />
+      <workItem from="1572960794955" duration="3193000" />
+      <workItem from="1573280297019" duration="4412000" />
+      <workItem from="1573366916813" duration="9429000" />
+      <workItem from="1573652364242" duration="2278000" />
+      <workItem from="1573888263497" duration="4639000" />
+      <workItem from="1573969341562" duration="6414000" />
+      <workItem from="1574165315728" duration="7406000" />
+      <workItem from="1574337610926" duration="5131000" />
+      <workItem from="1574477001667" duration="10722000" />
+      <workItem from="1574575652271" duration="14501000" />
+      <workItem from="1574686401921" duration="6590000" />
+      <workItem from="1574775267473" duration="248000" />
+      <workItem from="1574776381284" duration="3209000" />
+      <workItem from="1574782297513" duration="1186000" />
+      <workItem from="1574995532917" duration="5511000" />
+      <workItem from="1575092849463" duration="19302000" />
+      <workItem from="1575167650204" duration="25346000" />
+      <workItem from="1575279260015" duration="1573000" />
+      <workItem from="1575784150606" duration="2276000" />
+      <workItem from="1575863857017" duration="4507000" />
+      <workItem from="1575871897465" duration="7617000" />
+      <workItem from="1577085315955" duration="4957000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom" timestamp="1575905127629">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1575905127629" />
+    <state width="1323" height="171" key="GridCell.Tab.0.center" timestamp="1575905127629">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1575905127629" />
+    <state width="1323" height="171" key="GridCell.Tab.0.left" timestamp="1575905127629">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1575905127629" />
+    <state width="1323" height="171" key="GridCell.Tab.0.right" timestamp="1575905127629">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1575905127629" />
+    <state x="-891" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1577085621054">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-891" y="242" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1577085621054" />
+    <state x="667" y="346" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1575871896232" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../django2/django2/urls.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/scrapytutorial$pong.coverage" NAME="pong Coverage Results" MODIFIED="1575880917049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../game" />
+    <SUITE FILE_PATH="coverage/scrapytutorial$database.coverage" NAME="database Coverage Results" MODIFIED="1564302856472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quotetutorial/quotetutorial" />
+  </component>
+</project>

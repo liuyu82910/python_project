@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}
+{{title|title}}
+{% endblock %}
+
+{% block content %}
+<h2>Are you sure you want to delete the below blog?</h2>
+<p>{{object.id}} {{object.title}}</p>
+<br>
+<form method="POST">{% csrf_token %}
+ <button class ='btn btn-outline-danger'>Confirm</button>
+ <button class ='btn btn-outline-success'><a href='{{object.get_absolute_url}}'>Return</a></button>
+</form>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}
+{{title|title}}
+{% endblock %}
+
+{% block content %}
+<h1>{{title}}</h1>
+<!--<form method="get">-->
+<form method="POST" action="">{% csrf_token %}
+    <label for="full_name">Your name: </label>
+    <input type="text" name="full_name" placeholder="name" size="40">
+    <br>
+    <label for="email">Your email: </label>
+    <input type="email" name="email" placeholder="email" size="50">
+    <br>
+    <label for="content">Your scribblings: </label>
+    <textarea name="content" placeholder="idea" rows="4" cols="50"></textarea>
+    <br>
+    <button type="submit">SEND</button>
+</form>
+{% endblock %}

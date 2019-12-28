@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <h1 style="color: salmon;font-size:40px;font-family: Broadway;">My helpful timestamp site</h1>
+    {% block content %}{% endblock %}
+    {% block footer %}
+    <hr>
+    <p style="background-color:orchid;text-align:center;font-size:20px;color: cornsilk">Thanks for visiting my site.</p>
+    {% endblock %}
+</body>
+</html>
