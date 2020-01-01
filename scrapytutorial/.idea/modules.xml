@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../django2/.idea/django2.iml" filepath="$PROJECT_DIR$/../django2/.idea/django2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../django3/.idea/django3.iml" filepath="$PROJECT_DIR$/../django3/.idea/django3.iml" />
       <module fileurl="file://$PROJECT_DIR$/../django_project/.idea/django_project.iml" filepath="$PROJECT_DIR$/../django_project/.idea/django_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/../game/.idea/game.iml" filepath="$PROJECT_DIR$/../game/.idea/game.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mydjango/.idea/mydjango.iml" filepath="$PROJECT_DIR$/../mydjango/.idea/mydjango.iml" />

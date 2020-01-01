@@ -10,6 +10,7 @@
     <orderEntry type="module" module-name="django_project" />
     <orderEntry type="module" module-name="django2" />
     <orderEntry type="module" module-name="game" />
+    <orderEntry type="module" module-name="django3" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
