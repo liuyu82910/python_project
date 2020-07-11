@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/../mydjango/.idea/mydjango.iml" filepath="$PROJECT_DIR$/../mydjango/.idea/mydjango.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/scrapytutorial.iml" filepath="$PROJECT_DIR$/.idea/scrapytutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/../selenium/.idea/selenium.iml" filepath="$PROJECT_DIR$/../selenium/.idea/selenium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../socket/.idea/socket.iml" filepath="$PROJECT_DIR$/../socket/.idea/socket.iml" />
       <module fileurl="file://$PROJECT_DIR$/../website/.idea/website.iml" filepath="$PROJECT_DIR$/../website/.idea/website.iml" />
     </modules>
   </component>

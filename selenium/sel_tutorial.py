@@ -23,21 +23,27 @@ try:
     for page in pages:
         pg.append(page.get_attribute('text'))
     last_page = int(pg[-2]) #grab the last page number and convert to int
+    with open('f:/scraping.tsv', 'w') as f:
+        f.write("Date\tTitle\tURL\tSummary\n")
     j = 1  #create a while loop to go thru all the pages with a searching result regarding python
-    while j <= last_page:
+    while j < last_page:
         main = WebDriverWait(driver, 30).until(
             EC.presence_of_element_located((By.ID, "main"))
         ) # this main may be redundant, not sure
         articles = main.find_elements_by_tag_name("article")
         for article in articles:
-            header = article.find_element_by_css_selector('a')
-            title = header.get_attribute('text')
-            web = header.get_attribute('href')
-            summary = article.find_element_by_class_name('entry-summary')
-            print(title)
-            print(web)
-            print(summary.text)
-            print('****************************************')
+            with open('f:/scraping.tsv', 'a') as F:
+                date = article.find_element_by_class_name('entry-date')
+                header = article.find_element_by_css_selector('a')
+                title = header.get_attribute('text')
+                web = header.get_attribute('href')
+                summary = article.find_element_by_class_name('entry-summary')
+                print(date.text)
+                print(title)
+                print(web)
+                print(summary.text)
+                print('****************************************')
+                F.write(f"{date.text}\t{title}\t{web}\t{summary.text}\n")
         element = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.CLASS_NAME, "next"))
                 )
@@ -55,7 +61,7 @@ try:
 #     )
 #     element.click()
 except:
-    print('something is wrong')
+    print('Error')
 #How do I deal with the random ads page when I scraped the web page by page
 
 
